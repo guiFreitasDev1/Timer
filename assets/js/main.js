@@ -1,3 +1,4 @@
+function timerRelogio(){
 function criarHoraDosSegundos(segundos) {
     const data = new Date(segundos * 1000)
     return data.toLocaleTimeString('pt-br', {
@@ -63,3 +64,6 @@ document.addEventListener('click', function (e) {
 })
 
 
+}
+
+timerRelogio()
